@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant Website</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Delicious Eats</h1>
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="home">
+			<h2>Welcome to Delicious Eats</h2>
+			<p>Enjoy our delicious food in a cozy and welcoming atmosphere.</p>
+			<a href="#menu"><button>View Our Menu</button></a>
+		</section>
+		<section id="menu">
+			<h2>Our Menu</h2>
+			<div class="menu-item">
+				<img src="dish1.jpg" alt="Dish 1">
+				<h3>Dish 1</h3>
+				<p>Description of Dish 1</p>
+				<p>$10</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="menu-item">
+				<img src="dish2.jpg" alt="Dish 2">
+				<h3>Dish 2</h3>
+				<p>Description of Dish 2</p>
+				<p>$15</p>
+				<button>Add to Cart</button>
+			</div>
+			<div class="menu-item">
+				<img src="dish3.jpg" alt="Dish 3">
+				<h3>Dish 3</h3>
+				<p>Description of Dish 3</p>
+				<p>$12</p>
+				<button>Add to Cart</button>
+			</div>
+		</section>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We are a family-owned restaurant that prides ourselves on using fresh and locally sourced ingredients.</p>
+			<p>Come visit us and experience our delicious food and warm hospitality.</p>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Send Message</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Delicious Eats. All rights reserved.</p>
+	</footer>
+</body>
+</html>
